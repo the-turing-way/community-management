@@ -2,6 +2,8 @@
 
 *Throughout 2025, The Turing Way's currently funded team at the Turing (which includes Malvika Sharan (@malvikasharan), Anne Lee Steele (@aleesteele), Arielle Bennett (@Arielle-Bennett), and Léllé Demertzi (@LelleDi)) who lead the project, manage the admin responsibilities and oversee community management will be forming a Working Group (WG) to transition some commmunity management responsibilities to the broader Turing Way community.*
 
+## Community Management Working Group
+
 The Community Management Working Group will be responsible for organising and delivering community-management-related tasks for and within *The Turing Way* community.
 
 This repository is to coordinate, management, and document community management related tasks within *The Turing Way* community.
@@ -9,6 +11,8 @@ This repository is to coordinate, management, and document community management 
 To learn more about The Turing Way Community Management Working Group (CMWG), visit this following issue: [https://github.com/the-turing-way/the-turing-way/issues/4033](https://github.com/the-turing-way/the-turing-way/issues/4033)
 
 Based on the existing responsibilities of the [Research Community Manager](https://hackmd.io/@turingway/CM-tasks) and [Research Project Manager](https://hackmd.io/@turingway/RPM-tasks), here are some of the most urgent and regular tasks that the CM WG would be responsible for.
+
+## Tasks
 
 | Task | Description | Frequency | 
 |------|-------------|------------|
@@ -24,6 +28,9 @@ Based on the existing responsibilities of the [Research Community Manager](https
 | Misc Community Maintenance  | Organizing and reviewing calendars, adding alternative text to images, uploading and labeling Scriberia images  | Varies
 
 The following project board is being used by this group: https://github.com/orgs/the-turing-way/projects/11.
+
+## Members
+
 
 ## Contributors
 
