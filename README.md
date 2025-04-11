@@ -62,6 +62,7 @@ This repository uses the [emoji keys from the All Contributors Bot](https://allc
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SaraVilla"><img src="https://avatars.githubusercontent.com/u/43204602?v=4?s=100" width="100px;" alt="Sara Villa"/><br /><sub><b>Sara Villa</b></sub></a><br /><a href="#maintenance-SaraVilla" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/srtee"><img src="https://avatars.githubusercontent.com/u/60586092?v=4?s=100" width="100px;" alt="Shern Tee"/><br /><sub><b>Shern Tee</b></sub></a><br /><a href="#maintenance-srtee" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
