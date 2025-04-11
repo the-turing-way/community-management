@@ -31,6 +31,14 @@ The following project board is being used by this group: https://github.com/orgs
 
 ## Members
 
+- Alejandro Coca-Castro
+- Anne Lee Steele
+- Johnanna Bayer
+- Léllé Demertzi
+- Neha Moopen
+- Sara Villa
+- Saranjeet Kaur
+- Shern Tee
 
 ## Contributors
 
