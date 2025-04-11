@@ -1,4 +1,21 @@
 {
-  "projectName": "The Turing Way",
-  "projectOwner": "theturingway"
+  "projectName": "community-management",
+  "projectOwner": "the-turing-way",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "aleesteele",
+      "name": "Anne Lee Steele",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18509789?v=4",
+      "profile": "http://www.aleesteele.com",
+      "contributions": [
+        "content"
+      ]
+    }
+  ]
 }
