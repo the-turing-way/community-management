@@ -49,6 +49,7 @@ The following project board is being used by this group: https://github.com/orgs
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://www.aleesteele.com"><img src="https://avatars.githubusercontent.com/u/18509789?v=4?s=100" width="100px;" alt="Anne Lee Steele"/><br /><sub><b>Anne Lee Steele</b></sub></a><br /><a href="#content-aleesteele" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LelleDi"><img src="https://avatars.githubusercontent.com/u/108274982?v=4?s=100" width="100px;" alt="LélléD"/><br /><sub><b>LélléD</b></sub></a><br /><a href="#content-LelleDi" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
