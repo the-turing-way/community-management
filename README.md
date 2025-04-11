@@ -23,7 +23,15 @@ Based on the existing responsibilities of the [Research Community Manager](https
 | Slack Maintenance  | Review channels and respond to messages | Varies
 | Misc Community Maintenance  | Organizing and reviewing calendars, adding alternative text to images, uploading and labeling Scriberia images  | Varies
 
-The primary way in which the TTW RCM and RPM interact with this board is through the project board visual: https://github.com/orgs/the-turing-way/projects/3/views/1. 
+The following project board is being used by this group: https://github.com/orgs/the-turing-way/projects/11.
 
 ## Contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
