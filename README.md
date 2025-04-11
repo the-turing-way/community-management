@@ -1,5 +1,7 @@
 # README.md
 
+[![All Contributors](https://img.shields.io/github/all-contributors/the-turing-way/community-management?color=ee8449&style=flat-square)](#contributors)
+
 *Throughout 2025, The Turing Way's currently funded team at the Turing (which includes Malvika Sharan (@malvikasharan), Anne Lee Steele (@aleesteele), Arielle Bennett (@Arielle-Bennett), and Léllé Demertzi (@LelleDi)) who lead the project, manage the admin responsibilities and oversee community management will be forming a Working Group (WG) to transition some commmunity management responsibilities to the broader Turing Way community.*
 
 ## Community Management Working Group
@@ -41,6 +43,8 @@ The following project board is being used by this group: https://github.com/orgs
 - Shern Tee
 
 ## Contributors
+
+This repository uses the [emoji keys from the All Contributors Bot](https://allcontributors.org/docs/en/emoji-key)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
