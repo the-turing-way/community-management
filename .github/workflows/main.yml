@@ -2,18 +2,20 @@ name: Create Monthly Newsletter Issue
 
 on:
   schedule:
-    - cron: "0 9 1 * *"  # Runs at 09:00 UTC on the 1st of every month
-  workflow_dispatch:      # Allows manual triggering
+    - cron: "0 9 1 * *"  # At 09:00 UTC on the 1st of each month
+  workflow_dispatch:      # Optional manual trigger
 
 jobs:
   create_issue:
     runs-on: ubuntu-latest
     permissions:
-      issues: write  # Grants permission to create issues
+      issues: write  # Needed to create issues with the default GITHUB_TOKEN
+
     steps:
       - name: Create Monthly Issue
         run: |
           gh issue create \
+            --repo ${{ github.repository }} \
             --title "📅 Monthly Planning — $(date +'%B %Y')" \
             --body "This is your automatic monthly issue! 🛠️
 
