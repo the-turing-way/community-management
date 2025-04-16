@@ -1,9 +1,9 @@
-name: Create Monthly Issue
+name: Create Monthly Newsletter Issue
 
 on:
   schedule:
-    - cron: "0 9 1 * *"  # 09:00 UTC on the 1st of every month
-  workflow_dispatch:      # Optional manual trigger for testing
+    - cron: "0 9 1 * *"  # At 09:00 UTC on the 1st of each month
+  workflow_dispatch:      # Manual trigger
 
 jobs:
   open-monthly-issue:
@@ -13,7 +13,7 @@ jobs:
         uses: peter-evans/create-issue@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          title: "📅 Monthly Planning — ${{ github.event_name == 'workflow_dispatch' && 'Manual Trigger' || format('{0} {1}', github.event.schedule.split(' ')[3], github.event.schedule.split(' ')[4])}}"
+          title: "📅 Monthly Planning — $(date +'%B %Y')"
           body: |
             This is your automatic monthly issue! 🛠️
 
