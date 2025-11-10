@@ -16,7 +16,7 @@ jobs:
         run: |
           gh issue create \
             --repo ${{ github.repository }} \
-            --title "📅 Newletter planning issue— $(date +'%B %Y')" \
+            --title "📅 Newsletter planning and management issue— $(date +'%B %Y')" \
             --body "This is your automatic monthly issue to manage TTW newsletter! 🛠️
 
           Things to review this month:
