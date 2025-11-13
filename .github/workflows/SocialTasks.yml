@@ -20,15 +20,18 @@ jobs:
             --body "This is your automatic monthly issue to manage TTW Social Media! 🛠️
           Checklist to review and work on this month:
           - [ ] Who's owning social media management this month? Assign yourself!  
-          - [ ] The person/people assigned to this issue will be in charge on managing TTW social media accounts (LinkedIn, Mastondon and Bluesky) and post over this month.
-          - We use Buffer (username and PW on Keybase) to cross-post through the 3 media channels and schedule posts (you can also do it manually). 
+          - [ ] The person/people assigned to this issue will be in charge of managing TTW's social media accounts (LinkedIn, Mastodon, Bluesky) and post over this month.
           - What to post about?
-              - [ ] Community forums 
-              - [ ] any TTW-related events? Fireside chat? 
-              - [ ] Collab cafes and onboarding dates! 
-              - [ ] Newsletter out and subscribing option
-              - [ ] Events/talks that TTW community are participating in
-              - [ ] anything that you think might be relevant! 
+              - [ ] Collaboration Cafes and Onboarding Calls!
+              - [ ] Community Forums
+              - [ ] Any TTW-related events (for example, Fireside Chats) 
+              - [ ] Newsletter
+              - [ ] Events/Talks that the TTW community are participating in
+              - [ ] Anything that you think might be relevant! 
+          
+          - We use [Buffer](https://buffer.com/) (username and password on Keybase) to cross-post across the 3x accounts. Buffer allows for customizing posts per platform and previewing them. Moreover, you can schedule posts in advance or publish them immediately. 
+          - We are (largely) free to use our own "voice" or style when making social media posts. Alternatively, you can refer to previous posts as a basis to build new ones.
+          
           
           
           
