@@ -19,7 +19,7 @@ jobs:
             --title "📅 Social Media planning and management issue— $(date +'%B %Y')" \
             --body "This is your automatic monthly issue to manage TTW Social Media! 🛠️
           Checklist to review and work on this month:
-          - [ ] Who's owning slack management this month? Assign yourself!  
+          - [ ] Who's owning social media management this month? Assign yourself!  
           - [ ] The person/people assigned to this issue will be in charge on managing TTW social media accounts (LinkedIn, Mastondon and Bluesky) and post over this month.
           - We use Buffer (username and PW on Keybase) to cross-post through the 3 media channels and schedule posts (you can also do it manually). 
           - What to post about?
