@@ -15,11 +15,12 @@ jobs:
       - name: Slack Monthly Management Issue 
         run: |
           gh issue create \
-            --repo ${{ github.repository }} \
-            --title "📅 Slack planning and management issue— date --date="$(date +%Y-%m-01) +1 month" +"%B %Y" \
             
+            --repo ${{ github.repository }} \
+            --title "📅 Social Media planning and management issue— date --date="$(date +%Y-%m-01) +1 month" +"%B %Y" \
             --body "This is your automatic monthly issue to manage TTW Slack workspage! 🛠️
-          Checklist to review this month:
+            
+            Checklist to review this month:
           - [ ] Who's owning slack management this month? Assign yourself!  
           - [ ] *Announcements*: post things and events to highlight in this channel 2X a month (traditionally it was weekly, but unless there is a need, I'd say let's trial for twice a month for now)
               - [ ] WG meetings according to TTW Calendar 
