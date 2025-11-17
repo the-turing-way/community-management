@@ -16,7 +16,7 @@ jobs:
         run: |
           gh issue create \
             --repo ${{ github.repository }} \
-            --title "📅 Slack planning and management issue— $(date +'%B %Y')" \
+            --title "📅 Slack planning and management issue— $(date +%Y-%m-1) next month" +"%B %Y" \
             --body "This is your automatic monthly issue to manage TTW Slack workspage! 🛠️
           Checklist to review this month:
           - [ ] Who's owning slack management this month? Assign yourself!  
