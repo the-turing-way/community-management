@@ -1,37 +1,12 @@
-name: Create Monthly Slack Management Issue
+name: Create Slack Monthly Management Issue
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 9 1 * *"  # At 09:00 UTC on the 1st of each month
-  workflow_dispatch:      # Optional manual trigger
+    - cron: "0 9 1 * *"  # runs on the 1st of every month at 09:00 UTC
 
 jobs:
-  create_issue:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write  # Needed to create issues with the default GITHUB_TOKEN
-
-    steps:
-      - name: Slack Monthly Management Issue 
-        id: create_issue
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh issue create \
-            --repo ${{ github.repository }} \
-            --title "📅 Slack planning and management issue— $(date --date="+2 months" +"%B %Y")" \
-            --body "This is your automatic monthly issue to manage TTW Slack! 🛠️
-          Checklist to review and work on this month:
-          - [ ] Who's owning slack management this month? Assign yourself!  
-          - [ ] *Announcements*: post things and events to highlight in this channel 2X a month (traditionally it was weekly, but unless there is a need, I'd say let's trial for twice a month for now)
-              - [ ] WG meetings according to TTW Calendar 
-              - [ ] any TTW-related events? Fireside chat? 
-              - [ ] Collab cafes and onboarding dates! 
-
-              echo "issue_url=$ISSUE_URL" >> $GITHUB_OUTPUT  #to link first job with second step
-
-  add_issue_to_project:
-    needs: create_issue #needs first step to run second step
+  create_and_add_issue:
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -39,10 +14,33 @@ jobs:
       contents: read
 
     steps:
-      # You can keep whatever steps already exist in your workflow.
+      - name: Create Slack Monthly Management Issue
+        id: create_issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_URL=$(gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "📅 Slack planning and management issue— $(date --date="+2 months" +"%B %Y")" \
+            --body "This is your automatic monthly issue to manage TTW Slack! 🛠️
+
+          Checklist to review and work on this month:
+          - [ ] Who's owning slack management this month? Assign yourself!
+          - [ ] *Announcements*: post things and events to highlight in this channel 2X a month
+              - [ ] WG meetings according to TTW Calendar 
+              - [ ] any TTW-related events?
+              - [ ] Collab cafes and onboarding dates!
+          ")
+
+          echo "issue_url=$ISSUE_URL" >> $GITHUB_OUTPUT
+
       - name: Add issue to GitHub project
         uses: actions/add-to-project@v1
         with:
-          project-url: https://github.com/orgs/the-turing-way/projects/12/
+          project-url: https://github.com/orgs/the-turing-way/projects/12
           github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          # add-to-project action uses GH_TOKEN as fallback
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
      
