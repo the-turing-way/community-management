@@ -3,7 +3,7 @@ name: Create Slack Monthly Management Issue
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 1 * *"  # 1st of every month at 09:00 UTC
+    - cron: "0 9 1 * *"
 
 jobs:
   create_and_add_issue:
@@ -14,7 +14,7 @@ jobs:
       contents: read
 
     steps:
-      - name: Calculate start and end dates
+      - name: Calculate Start and End Dates
         id: dates
         run: |
           START_DATE=$(date -u -d "$(date +%Y-%m-01) +1 month" +%Y-%m-%d)
@@ -25,7 +25,8 @@ jobs:
       - name: Create Slack Monthly Management Issue
         id: create_issue
         run: |
-          ISSUE_BODY=$(cat <<EOF
+          # Write issue body to temporary file to avoid quoting problems
+          cat > issue_body.md <<EOL
 This is your automatic monthly issue to manage TTW Slack! 🛠️
 
 Start date: ${{ steps.dates.outputs.start_date }}
@@ -37,13 +38,13 @@ Checklist for this month:
   - [ ] WG meetings according to TTW Calendar
   - [ ] Any TTW-related events?
   - [ ] Collab cafes and onboarding dates!
-EOF
-)
+EOL
 
+          # Create the GitHub issue using the file
           ISSUE_NUMBER=$(gh issue create \
             --repo "${{ github.repository }}" \
             --title "📅 Slack planning and management issue — $(date -d '+2 months' +'%B %Y')" \
-            --body "$ISSUE_BODY")
+            --body-file issue_body.md)
 
           echo "issue_number=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
 
@@ -52,4 +53,5 @@ EOF
         with:
           project-url: https://github.com/orgs/the-turing-way/projects/12
           content-id: ${{ steps.create_issue.outputs.issue_number }}
+          column-name: "To Do"
           github-token: ${{ secrets.GITHUB_TOKEN }}
