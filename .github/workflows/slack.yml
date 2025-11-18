@@ -34,7 +34,7 @@ jobs:
 
     steps:
       # You can keep whatever steps already exist in your workflow.
-      - name: Add issue to GitHub project
+        name: Add issue to GitHub project
         uses: actions/add-to-project@v1
         with:
           # Replace with your project URL
