@@ -35,7 +35,7 @@ jobs:
           echo "issue_url=$ISSUE_URL" >> $GITHUB_OUTPUT
 
       - name: Add issue to GitHub project
-        uses: actions/add-to-project@RELEASE_VERSION
+        uses: actions/add-to-project@main
         with:
           project-url: https://github.com/orgs/the-turing-way/projects/12
           github-token: ${{ secrets.GITHUB_TOKEN }}
