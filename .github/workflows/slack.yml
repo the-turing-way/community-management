@@ -35,8 +35,11 @@ jobs:
       - name: Add issue to GitHub project
         uses: actions/add-to-project@v0.4.0
         with:
-          project-url: https://github.com/orgs/the-turing-way/projects/12
+          project-url: https://github.com/orgs/the-turing-way/projects/12/views/4
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          fields: |
+            Start Date: $(date +"%Y-%m-%d")
+            End Date: $(date --date="+1 month" +"%Y-%m-%d")
         env:
           # add-to-project action uses GH_TOKEN as fallback
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
