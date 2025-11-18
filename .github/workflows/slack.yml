@@ -25,23 +25,25 @@ jobs:
       - name: Create Slack Monthly Management Issue
         id: create_issue
         run: |
-          ISSUE_NUMBER=$(gh issue create \
-            --repo "${{ github.repository }}" \
-            --title "📅 Slack planning and management issue — $(date -d '+2 months' +'%B %Y')" \
-            --body-file - <<EOF
+          ISSUE_BODY=$(cat <<EOF
 This is your automatic monthly issue to manage TTW Slack! 🛠️
 
 Start date: ${{ steps.dates.outputs.start_date }}
 End date: ${{ steps.dates.outputs.end_date }}
 
 Checklist for this month:
-- [ ] Who's owning Slack management this month? Assign yourself!
+- [ ] Who owns Slack management this month? Assign yourself!
 - [ ] *Announcements*: post things and events to highlight in this channel 2X a month
   - [ ] WG meetings according to TTW Calendar
   - [ ] Any TTW-related events?
   - [ ] Collab cafes and onboarding dates!
 EOF
-          )
+)
+
+          ISSUE_NUMBER=$(gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "📅 Slack planning and management issue — $(date -d '+2 months' +'%B %Y')" \
+            --body "$ISSUE_BODY")
 
           echo "issue_number=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
 
@@ -51,4 +53,3 @@ EOF
           project-url: https://github.com/orgs/the-turing-way/projects/12
           content-id: ${{ steps.create_issue.outputs.issue_number }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
