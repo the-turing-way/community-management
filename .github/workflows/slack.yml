@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-      project: write
+      projects: write
       contents: read
 
     steps:
