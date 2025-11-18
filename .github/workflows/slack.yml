@@ -13,6 +13,9 @@ jobs:
 
     steps:
       - name: Slack Monthly Management Issue 
+        id: create_issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create \
             --repo ${{ github.repository }} \
@@ -25,7 +28,10 @@ jobs:
               - [ ] any TTW-related events? Fireside chat? 
               - [ ] Collab cafes and onboarding dates! 
 
+              echo "issue_url=$ISSUE_URL" >> $GITHUB_OUTPUT  #to link first job with second step
+
   add_issue_to_project:
+    needs: create_issue #needs first step to run second step
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -34,12 +40,9 @@ jobs:
 
     steps:
       # You can keep whatever steps already exist in your workflow.
-        name: Add issue to GitHub project
+      - name: Add issue to GitHub project
         uses: actions/add-to-project@v1
         with:
-          # Replace with your project URL
-          project-url: https://github.com/orgs/the-turing-way/projects/12/views/4
+          project-url: https://github.com/orgs/the-turing-way/projects/12/
           github-token: ${{ secrets.GITHUB_TOKEN }}
-                 
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     
