@@ -16,7 +16,7 @@ jobs:
         run: |
           gh issue create \
             --repo ${{ github.repository }} \
-            --title "📅 Collab cafe planning and management issue for 1st week$(date --date="+1 months" +"%B %Y")" \
+            --title "📅 Collab cafe planning and management issue for 1st week $(date --date="+2 months" +"%B %Y")" \
             --body "This is your automatic monthly issue to manage TTW Collab Cafe-1st week! 🛠️
           Checklist to review and work on for this collab:
           - [ ] Who's hosting and managing this collab cafe? Assign yourself!  
