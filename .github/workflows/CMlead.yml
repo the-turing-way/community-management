@@ -16,7 +16,7 @@ jobs:
         run: |
           gh issue create \
             --repo ${{ github.repository }} \
-            --title "📅 CM monthly lead management issue— $(date +'%B %Y')" \
+            --title "📅 CM monthly lead management issue— $(date --date="+2 months" +"%B %Y")" \
             --body "This is your automatic monthly issue to manage the monthly CM tasks! 🛠️
 
           Things to checkout this month:
