@@ -16,7 +16,7 @@ jobs:
         run: |
           gh issue create \
             --repo ${{ github.repository }} \
-            --title "📅 Social Media planning and management issue— $(date +'%B %Y')" \
+            --title "📅 Social Media planning and management issue— $(date --date="+1 months" +"%B %Y")" \
             --body "This is your automatic monthly issue to manage TTW Social Media! 🛠️
           Checklist to review and work on this month:
           - [ ] Who's owning social media management this month? Assign yourself!  
