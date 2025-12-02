@@ -24,7 +24,11 @@ jobs:
           - [ ] Check if issue is open on Newsletter repo to Collate content over the month: https://github.com/the-turing-way/newsletter and link below !!!
           - [ ] Move content to Buttondown or [this template](https://github.com/the-turing-way/newsletter/blob/main/newsletter-template.md)
           - [ ] Send email from gmail account
-          - [ ] Archive newsletter content in [Newsletter repo] (https://github.com/the-turing-way/newsletter) and close this issue and the one in that repo!
+          - [ ] Archive newsletter content in [Newsletter repo] (https://github.com/the-turing-way/newsletter) and close this issue and the one in that repo! Follow the instructions below:
+            - [ ] In Buttondown, instead of viewing the file in'fancy mode', change to markdown mode and copy all the content.
+            - [ ] In the [Newsletter repo] (https://github.com/the-turing-way/newsletter), add a new file, name it following the convention (newsletter_X_MonthYear.md). 
+            - md extension is important for the file to look nice in the preview mode!
+            - Month in the naming correlates to the month of the content/planning issue, not when it's been published (we normally publish the newsletter at the end of the month or at the beg on the next one)
           
           
 
