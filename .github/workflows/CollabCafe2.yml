@@ -19,8 +19,9 @@ jobs:
             --title "📅 Collab cafe planning and management issue for 3rd week— $(date --date="+2 months" +"%B %Y")" \
             --body "This is your automatic monthly issue to manage TTW Collab Cafe-3rd week! 🛠️
           Checklist to review and work on for this collab:
-          - [ ] Who's hosting and managing this collab cafe? Assign yourself!  
-          - [ ] The person/people assigned to this issue will be in charge on managing teh tasks associated to the Collab Cafe on teh first week on the month.
+          - [ ] Who's hosting and managing this collab cafe? Assign yourself!
+          - [ ] INSTRUCTIONS TO HOST are in the framapad: Don't forget to claim host (key in the gov channel) and enable waiting room for security reasons!  
+          - [ ] The person/people assigned to this issue will be in charge on managing the tasks associated to the Collab Cafe on teh first week on the month.
           - [ ] Please EDIT the issue name and ADD THE DATE
           - [ ] https://book.the-turing-way.org/community-handbook/community-calls/community-calls-collabcafe
           - Tasks:
