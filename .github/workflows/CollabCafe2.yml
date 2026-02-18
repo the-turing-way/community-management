@@ -33,7 +33,8 @@ jobs:
              - [ ] Open break-out rooms depending on need
              - [ ] Keep track of time on cuckoo clock
              - [ ] Close rooms
-             - [ ] archive notes: https://annuel2.framapad.org/p/ttw-collaboration-cafe
+             - [ ] archive notes: https://annuel2.framapad.org/p/ttw-collaboration-cafe into this repo: https://github.com/the-turing-way/governance/tree/main/community-calls/collaboration-cafe 
+             **usually, you should only have to archive that collab cafe's notes, but please check when was the last archive and make sure all content is there- even in one file, THANKS!**
              - [ ] Close issue 
           
           
