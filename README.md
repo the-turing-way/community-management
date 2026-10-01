@@ -86,6 +86,7 @@ This repository uses the [emoji keys from the All Contributors Bot](https://allc
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.turing.ac.uk/people/research-associates/emma-karoune"><img src="https://avatars.githubusercontent.com/u/58147174?v=4?s=100" width="100px;" alt="Emma Karoune"/><br /><sub><b>Emma Karoune</b></sub></a><br /><a href="#eventOrganizing-EKaroune" title="Event Organizing">📋</a> <a href="#content-EKaroune" title="Content">🖋</a> <a href="#projectManagement-EKaroune" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Preshh0"><img src="https://avatars.githubusercontent.com/u/42142405?v=4?s=100" width="100px;" alt="Precious Onyewuchi"/><br /><sub><b>Precious Onyewuchi</b></sub></a><br /><a href="#content-Preshh0" title="Content">🖋</a> <a href="#eventOrganizing-Preshh0" title="Event Organizing">📋</a> <a href="#projectManagement-Preshh0" title="Project Management">📆</a> <a href="#promotion-Preshh0" title="Promotion">📣</a></td>
     </tr>
   </tbody>
 </table>
