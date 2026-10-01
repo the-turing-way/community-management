@@ -81,6 +81,7 @@ This repository uses the [emoji keys from the All Contributors Bot](https://allc
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nehamoopen"><img src="https://avatars.githubusercontent.com/u/37183829?v=4?s=100" width="100px;" alt="Neha Moopen"/><br /><sub><b>Neha Moopen</b></sub></a><br /><a href="#maintenance-nehamoopen" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://saranjeetkaur.github.io/About-Me/"><img src="https://avatars.githubusercontent.com/u/28556616?v=4?s=100" width="100px;" alt="Saranjeet Kaur"/><br /><sub><b>Saranjeet Kaur</b></sub></a><br /><a href="#maintenance-SaranjeetKaur" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://huixinng.com"><img src="https://avatars.githubusercontent.com/u/16829271?v=4?s=100" width="100px;" alt="Renee (Hui Xin) Ng"/><br /><sub><b>Renee (Hui Xin) Ng</b></sub></a><br /><a href="#maintenance-nghuixin" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://cecibaldoni.github.io/"><img src="https://avatars.githubusercontent.com/u/111133332?v=4?s=100" width="100px;" alt="Cecilia Baldoni"/><br /><sub><b>Cecilia Baldoni</b></sub></a><br /><a href="#eventOrganizing-cecibaldoni" title="Event Organizing">📋</a></td>
     </tr>
   </tbody>
 </table>
