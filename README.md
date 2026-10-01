@@ -52,7 +52,7 @@ The following project board is being used by this group: https://github.com/orgs
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LelleDi"><img src="https://avatars.githubusercontent.com/u/108274982?v=4?s=100" width="100px;" alt="LélléD"/><br /><sub><b>LélléD</b></sub></a><br /><a href="#content-LelleDi" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlexandraAAJ"><img src="https://avatars.githubusercontent.com/u/124181438?v=4?s=100" width="100px;" alt="Alexandra Araujo Alvarez"/><br /><sub><b>Alexandra Araujo Alvarez</b></sub></a><br /><a href="#content-AlexandraAAJ" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt="Malvika Sharan"/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#content-malvikasharan" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Arielle-Bennett"><img src="https://avatars.githubusercontent.com/u/74651964?v=4?s=100" width="100px;" alt="Arielle-Bennett"/><br /><sub><b>Arielle-Bennett</b></sub></a><br /><a href="#content-Arielle-Bennett" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Arielle-Bennett"><img src="https://avatars.githubusercontent.com/u/74651964?v=4?s=100" width="100px;" alt="Arielle-Bennett"/><br /><sub><b>Arielle-Bennett</b></sub></a><br /><a href="#content-Arielle-Bennett" title="Content">🖋</a> <a href="#eventOrganizing-Arielle-Bennett" title="Event Organizing">📋</a></td>
     </tr>
   </tbody>
 </table>
