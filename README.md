@@ -84,6 +84,9 @@ This repository uses the [emoji keys from the All Contributors Bot](https://allc
       <td align="center" valign="top" width="14.28%"><a href="https://cecibaldoni.github.io/"><img src="https://avatars.githubusercontent.com/u/111133332?v=4?s=100" width="100px;" alt="Cecilia Baldoni"/><br /><sub><b>Cecilia Baldoni</b></sub></a><br /><a href="#eventOrganizing-cecibaldoni" title="Event Organizing">📋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Maryblessing"><img src="https://avatars.githubusercontent.com/u/79088348?v=4?s=100" width="100px;" alt="Maryblessing O."/><br /><sub><b>Maryblessing O.</b></sub></a><br /><a href="#content-Maryblessing" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.turing.ac.uk/people/research-associates/emma-karoune"><img src="https://avatars.githubusercontent.com/u/58147174?v=4?s=100" width="100px;" alt="Emma Karoune"/><br /><sub><b>Emma Karoune</b></sub></a><br /><a href="#eventOrganizing-EKaroune" title="Event Organizing">📋</a> <a href="#content-EKaroune" title="Content">🖋</a> <a href="#projectManagement-EKaroune" title="Project Management">📆</a></td>
+    </tr>
   </tbody>
 </table>
 
