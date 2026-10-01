@@ -1,5 +1,7 @@
 # README.md
 
+[![All Contributors](https://img.shields.io/github/all-contributors/the-turing-way/community-management?color=ee8449&style=flat-square)](#contributors)
+
 *Throughout 2025, The Turing Way's currently funded team at the Turing (which includes Malvika Sharan (@malvikasharan), Anne Lee Steele (@aleesteele), Arielle Bennett (@Arielle-Bennett), and Léllé Demertzi (@LelleDi)) who lead the project, manage the admin responsibilities and oversee community management will be forming a Working Group (WG) to transition some commmunity management responsibilities to the broader Turing Way community.*
 
 ## Community Management Working Group
@@ -32,15 +34,32 @@ The following project board is being used by this group: https://github.com/orgs
 ## Members
 
 - Alejandro Coca-Castro
+- Alexandra Araujo Alvarez
 - Anne Lee Steele
+- Arielle Bennett
+- Cecilia Baldoni
+- Emma Karoune
+- Esther Plomp
 - Johnanna Bayer
+- Jim Madge
+- Kirstie Whitaker
+
+
 - Léllé Demertzi
+- Liz Hare
+- Malvika Sharan
+- Maryblessing Okolie
 - Neha Moopen
+- Precious Oneyewuchi
+- Renee Hui Xin Ng
 - Sara Villa
 - Saranjeet Kaur
 - Shern Tee
+- Susana Roman Garcia
 
 ## Contributors
+
+This repository uses the [emoji keys from the All Contributors Bot](https://allcontributors.org/docs/en/emoji-key)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -52,7 +71,17 @@ The following project board is being used by this group: https://github.com/orgs
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LelleDi"><img src="https://avatars.githubusercontent.com/u/108274982?v=4?s=100" width="100px;" alt="LélléD"/><br /><sub><b>LélléD</b></sub></a><br /><a href="#content-LelleDi" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlexandraAAJ"><img src="https://avatars.githubusercontent.com/u/124181438?v=4?s=100" width="100px;" alt="Alexandra Araujo Alvarez"/><br /><sub><b>Alexandra Araujo Alvarez</b></sub></a><br /><a href="#content-AlexandraAAJ" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt="Malvika Sharan"/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#content-malvikasharan" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Arielle-Bennett"><img src="https://avatars.githubusercontent.com/u/74651964?v=4?s=100" width="100px;" alt="Arielle-Bennett"/><br /><sub><b>Arielle-Bennett</b></sub></a><br /><a href="#content-Arielle-Bennett" title="Content">🖋</a> <a href="#eventOrganizing-Arielle-Bennett" title="Event Organizing">📋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Arielle-Bennett"><img src="https://avatars.githubusercontent.com/u/74651964?v=4?s=100" width="100px;" alt="Arielle-Bennett"/><br /><sub><b>Arielle-Bennett</b></sub></a><br /><a href="#content-Arielle-Bennett" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/acocac"><img src="https://avatars.githubusercontent.com/u/13321552?v=4?s=100" width="100px;" alt="Alejandro ©"/><br /><sub><b>Alejandro ©</b></sub></a><br /><a href="#maintenance-acocac" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/likeajumprope"><img src="https://avatars.githubusercontent.com/u/23728822?v=4?s=100" width="100px;" alt="Johanna Bayer"/><br /><sub><b>Johanna Bayer</b></sub></a><br /><a href="#maintenance-likeajumprope" title="Maintenance">🚧</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SaraVilla"><img src="https://avatars.githubusercontent.com/u/43204602?v=4?s=100" width="100px;" alt="Sara Villa"/><br /><sub><b>Sara Villa</b></sub></a><br /><a href="#maintenance-SaraVilla" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/srtee"><img src="https://avatars.githubusercontent.com/u/60586092?v=4?s=100" width="100px;" alt="Shern Tee"/><br /><sub><b>Shern Tee</b></sub></a><br /><a href="#maintenance-srtee" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nehamoopen"><img src="https://avatars.githubusercontent.com/u/37183829?v=4?s=100" width="100px;" alt="Neha Moopen"/><br /><sub><b>Neha Moopen</b></sub></a><br /><a href="#maintenance-nehamoopen" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://saranjeetkaur.github.io/About-Me/"><img src="https://avatars.githubusercontent.com/u/28556616?v=4?s=100" width="100px;" alt="Saranjeet Kaur"/><br /><sub><b>Saranjeet Kaur</b></sub></a><br /><a href="#maintenance-SaranjeetKaur" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://huixinng.com"><img src="https://avatars.githubusercontent.com/u/16829271?v=4?s=100" width="100px;" alt="Renee (Hui Xin) Ng"/><br /><sub><b>Renee (Hui Xin) Ng</b></sub></a><br /><a href="#maintenance-nghuixin" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://cecibaldoni.github.io/"><img src="https://avatars.githubusercontent.com/u/111133332?v=4?s=100" width="100px;" alt="Cecilia Baldoni"/><br /><sub><b>Cecilia Baldoni</b></sub></a><br /><a href="#eventOrganizing-cecibaldoni" title="Event Organizing">📋</a></td>
     </tr>
   </tbody>
 </table>

@@ -53,6 +53,78 @@
         "content",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "acocac",
+      "name": "Alejandro ©",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13321552?v=4",
+      "profile": "https://github.com/acocac",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "likeajumprope",
+      "name": "Johanna Bayer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23728822?v=4",
+      "profile": "https://github.com/likeajumprope",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "SaraVilla",
+      "name": "Sara Villa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43204602?v=4",
+      "profile": "https://github.com/SaraVilla",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "srtee",
+      "name": "Shern Tee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60586092?v=4",
+      "profile": "https://github.com/srtee",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "nehamoopen",
+      "name": "Neha Moopen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37183829?v=4",
+      "profile": "https://github.com/nehamoopen",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "SaranjeetKaur",
+      "name": "Saranjeet Kaur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28556616?v=4",
+      "profile": "https://saranjeetkaur.github.io/About-Me/",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "nghuixin",
+      "name": "Renee (Hui Xin) Ng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16829271?v=4",
+      "profile": "http://huixinng.com",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
+      "login": "cecibaldoni",
+      "name": "Cecilia Baldoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111133332?v=4",
+      "profile": "https://cecibaldoni.github.io/",
+      "contributions": [
+        "eventOrganizing"
+      ]
     }
   ]
 }
