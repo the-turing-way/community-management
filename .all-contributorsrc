@@ -134,6 +134,17 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "EKaroune",
+      "name": "Emma Karoune",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58147174?v=4",
+      "profile": "https://www.turing.ac.uk/people/research-associates/emma-karoune",
+      "contributions": [
+        "eventOrganizing",
+        "content",
+        "projectManagement"
+      ]
     }
   ]
 }
